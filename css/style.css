@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+.vidwrap{
+	display: block;
+}
+
+.capwrap{
+	margin: 0 auto;
+}
+
+.capwrap p{
+	margin: 0 auto;
+	text-align: center;
+}
