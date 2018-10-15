@@ -28,15 +28,26 @@ body{
 @media (min-width: 769){
 	
 	body{
-		margin: 20px;
+		width: 75%;
 	}
 	
-	.vidwrap{
-		width: 50%;
+	wrapper{
+		width: 75%;
+	}
+	
+	 .videocontent {
+		width:80%;
+		max-width: 640px;
+		margin: 0 auto;
 	}
 	
 	video{
 		max-width: 75%;
 		margin: 0 auto;
 	}
+	
+	.mj__overlay-play{
+		width: 80%;
+	}
+	
 }
