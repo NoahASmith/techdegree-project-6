@@ -22,4 +22,21 @@ body{
 .capwrap p{
 	margin: 0 auto;
 	text-align: center;
+	font-size: 25px;
+}
+
+@media (min-width: 769){
+	
+	body{
+		margin: 20px;
+	}
+	
+	.vidwrap{
+		width: 50%;
+	}
+	
+	video{
+		max-width: 75%;
+		margin: 0 auto;
+	}
 }
