@@ -7,47 +7,34 @@
   box-sizing: border-box;
 }
 
-body{
-	margin: 0;
-}
-
-.vidwrap{
-	display: block;
-}
-
-.capwrap{
+.wapper{
 	margin: 0 auto;
 }
 
-.capwrap p{
-	margin: 0 auto;
+#transcript{
+	font-size: 1600px;
 	text-align: center;
-	font-size: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
 
-@media (min-width: 769){
-	
-	body{
-		width: 75%;
+.vidWrap{
+	margin: 0 auto;
+}
+@media (min-width: 768px){
+
+	.wrapper{
+		width: 100%;
+		font-size: 18px;
 	}
 	
-	wrapper{
-		width: 75%;
-	}
-	
-	 .videocontent {
-		width:80%;
-		max-width: 640px;
+	 .vidWrap {
+		max-width: 852px;
 		margin: 0 auto;
 	}
-	
 	video{
-		max-width: 75%;
-		margin: 0 auto;
-	}
-	
-	.mj__overlay-play{
 		width: 80%;
+		height: 80%;
 	}
-	
 }
