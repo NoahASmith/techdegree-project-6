@@ -17,7 +17,7 @@
 	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
-	width: 55%;
+	width: 90%;
 	font-family: 'Poppins', sans-serif;
 	line-height: 1.55;
 }
@@ -25,6 +25,15 @@
 .vidWrap{
 	margin: 0 auto;
 }
+.mejs__controls:not([style*='display: none']) {
+    background-color: rgba(92,143,186,.6);
+}
+
+
+
+
+
+
 @media (min-width: 768px){
 
 	 .vidWrap {
@@ -40,6 +49,6 @@
 
 	#transcript{
 	font-size: 20px;
-	width: 70%;
+  width: 80%;
 	}
 }
